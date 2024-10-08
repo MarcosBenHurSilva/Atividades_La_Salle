@@ -34,7 +34,7 @@ int main()
         scanf("%d", &ageIdade);
 
         // Valida a idade
-        if (ageIdade < 0 || optionMovie > 110)
+        if (ageIdade < 0 || ageIdade > 110)
         {
             printf("Idade inválida!\n");
             return 1;
